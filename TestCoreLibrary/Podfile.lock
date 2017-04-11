@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - CryptoSwift (0.6.8)
+  - DeviceKit (1.0.1)
+  - HanekeSwift (0.10.1)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - CryptoSwift
+  - DeviceKit
+  - HanekeSwift (from `https://github.com/jasonnoahchoi/HanekeSwift`, branch `swift3`)
+  - SDWebImage
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  HanekeSwift:
+    :branch: swift3
+    :git: https://github.com/jasonnoahchoi/HanekeSwift
+
+CHECKOUT OPTIONS:
+  HanekeSwift:
+    :commit: 8571f0285ae7daa578866e50bc36cc85946e9ae8
+    :git: https://github.com/jasonnoahchoi/HanekeSwift
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  CryptoSwift: f21ea03ed3a94e79d241648ce26652cd4810508a
+  DeviceKit: 461e525867e48e725f41699c1cab3100df1258ff
+  HanekeSwift: 4113367892828e7700d24a384027de6ebc79aad1
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 7e6a6800a9b230a10c2c78df2eb0970ff517bd56
+
+COCOAPODS: 1.2.1.rc.1
